@@ -1,23 +1,32 @@
-#include <iostream>
-#include <map>
-#include <string>
-using namespace std;
+    #include <iostream>
+    #include <map>
+    #include <string>
+    using namespace std;
 
-// Map is an associative array
+    // Map is an associative array
 
-int main()
-{
+    int main()
+    {
+    // ## First way to create a map ---------------------------------
+        map<string, int> marksMap;
 
-    map<string, int> marksMap;
+    // __________________________________________    
+    //|             first               second   |      
+        marksMap [" Krishna "     ]   =   99   ;
+        marksMap [" Average "     ]   =   70   ;
+        marksMap [" Backbencher " ]   =   40   ;
+    //|__________________________________________|    
+ 
+  
 
-// __________________________________________    
-//|             first           |   second   |      
-    marksMap [" Krishna "     ]   =   99   ;
-    marksMap [" Average "     ]   =   70   ;
-    marksMap [" Backbencher " ]   =   40   ;
-//|__________________________________________|    
-
-
+    // way  to print elements of map is like this
+    map<string, int>::iterator itr;
+    auto itr = marksMap.begin();
+    cout<<  (*itr).first << "   " << (*itr).second <<" \n " ; 
+    cout<<  itr->first << "   " << itr->second <<" \n " ; 
+    
+    
+    // way  to print elements of map is like this
     map<string, int>::iterator itr;
 
     //  int i ; 
@@ -67,13 +76,13 @@ int main()
         2nd  conition for 2nd element with begins() + 1                          because of itr ++ ;
         3rd  conition for 3rd element with begins() + 1 + 1                      because of itr ++ ;
         4th  conition its stop because condition matches begins() + 1 + 1 + 1    because of itr ++ ;
-        end()
+                                                            end()
 
 
     THEREFORE to use end( )  we need to use itr-- ; which points just before the end( ) just like that
 
-    itr--;
     itr = ( marksMap.end() )  ;
+    itr--;
     cout<<  (*itr).first << "   " << (*itr).second <<" \n " ;
     IT will print krishna as it is last element
 

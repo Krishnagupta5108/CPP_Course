@@ -131,18 +131,32 @@
      
      //       $$$ WARNING $$$$$ THE LIST2 AFTER MERGING WILL BE DELETED
      //   cout<<"Displaying list1"<<endl;
-     //  display(list2) ;
+     //  display(list1) ;
+     
+     
+     
+     // ##  example of Reverse () function in list*********************************************************
+     
+     
+     cout << "\n\n";
+     cout<<"Reversing the element from list 2 \n";
+     list1.reverse() ; 
+     display(list1) ;
+     
+     
+     // ##  example of swap () function in list*********************************************************
+     
+     
+     cout << "\n\n";
+     list1.swap(list2) ; 
+    cout<<"Displaying list1 and list 2 after swaping them \n";
+     cout<<" list1"<<endl;
+     display(list1) ;
+     cout<<" list2"<<endl;
+     display(list2) ;
      
      
     
-     // ##  example of Reverse () function in list*********************************************************
-     
-        
-    cout << "\n\n";
-    cout<<"Reversing the element from list 2 \n";
-    list1.reverse() ; 
-    display(list1) ;
-     
-      
-    return 0;
+     return 0;
+
  }

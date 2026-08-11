@@ -1,15 +1,15 @@
-#include <iostream>
-#include <map>
-#include <string>
-using namespace std;
+    #include <iostream>
+    #include <map>
+    #include <string>
+    using namespace std;
 
-/*   IMPORTANT POINTS OF THE MAP
+    /*   IMPORTANT POINTS OF THE MAP
 
-        key        value
-         ↓          ↓
-    "Krishna"      99
-    "Average"      70
-    "Backbencher"  40
+            key        value
+            ↓          ↓
+        "Krishna"      99
+        "Average"      70
+        "Backbencher"  40
 
 
     WE  have a map like this
@@ -42,7 +42,7 @@ using namespace std;
 
 */
 
-int main (){
+    int main (){
 
     map<string, pair< int, char >> marksMap;
 
@@ -57,7 +57,7 @@ int main (){
     
 
     // TO PRINT THE ALL THE COLUMNS WE USE FOR LOOP 
-    auto itr = marksMap.begin();
+    auto itr = marksMap.begin();    
     for ( int i = 0 ; i <=marksMap.size() ;   i++)
     {
 
@@ -77,4 +77,5 @@ int main (){
     
     }
     return 0;
-}
+    }
+

@@ -20,25 +20,27 @@ void display(vector<T> &v1)
 int main()
 {
 
-
+    
     // ##################### First way to create a vector in C++ STL ########################
-
+    
     vector<int> vec1; // Zero length interger vector
     int element, size;
-
+    
     cout << "Enter the size of the vector :-";
     cin >> size;
-
+    
     cout << "Enter the elements of the vector :-" << endl;
-
+    
     for (int i = 0; i < size; i++)
-
+    
     {
         cout << "Enter an element to add to this Vector vec1" << endl;
         cin >> element;
         vec1.push_back(element);
     }
-
+    
+    //  ## To print the elemet of the vector
+    cout << vec1[1] << " \t ";
     display(vec1);
 
 
@@ -110,6 +112,10 @@ int main()
     // ##################### Fourth way to create a vector in C++ STL ########################
     vector<int> vec4(6, 3); // 6 element integer vector with all elements initialized to 3
     display(vec4);
-
+    
+    
+    // ##################### Fourth way to create a vector in C++ STL ########################
+    vector<int> vec5(5)  ; 
+    
     return 0;
 }
