@@ -56,7 +56,7 @@ int main (){
     Buggati.engine = 5000 ; 
     Buggati.color = 'B' ;  
     Buggati.model = 7.3 ; 
-s
+ 
     cout << "The model of Buggati  "<<Buggati.engine<<endl;
     cout << "The model of Buggati  "<<Buggati.color<<endl;
     cout << "The model of Buggati  "<<Buggati.model<<endl;
