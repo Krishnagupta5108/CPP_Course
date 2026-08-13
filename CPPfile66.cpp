@@ -5,13 +5,13 @@
     
     int main (){
 
-        // Function Object9( Functor ) : Function wrapped in a class so that it aviable like an object  
+        // Function Object( Functor ) : Function wrapped in a class so that it aviable like an object  
         
         int arr[ ]  = { 1 , 23 , 4 , 11 , 33 , 46 , 54 , 34 , 36   }; 
    //      index no =   0 , 1  , 2 , 3  , 4  , 5  , 6  , 7  , 8
 
 
-        // ## Sorthing the array ---------------------------------
+     // ## Sorting the array ---------------------------------
 
     sort(arr , arr+5) ;  // this will sort the elments of array from index 0 to 8 only rest will be unsorted
     sort(arr , arr+5 , greater<int>()) ;  // this will desending order sort the elments of array from index 0 to 8 only  rest will be unsorted
