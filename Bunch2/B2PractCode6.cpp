@@ -9,10 +9,15 @@ int main()
     cout << "Enter Your Unit of Electricity is used this month :" << endl;
     cin >> unit;
 
+
+
     // float Bill;
     // Bill = (unit * 10);
     // Bill += (Bill * 18) / 100;
     // cout << "Your Total Electricity Bill is " << Bill << endl;
+
+
+    
     int type;
     float Bill;
     if(unit >=0 && unit <=100 ){
