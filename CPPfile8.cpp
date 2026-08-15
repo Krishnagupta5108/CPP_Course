@@ -23,8 +23,9 @@ int main (){
 
     // ******************Continue  statement*****************
 
-    //                             in continue the compiler skip or ignore 
-    for (int i = 0; i < 10; i++) // the conditon what should be run that time according to the loop conditon
+    //                              in continue the compiler skip or ignore 
+    for (int i = 0; i < 10; i++) // the conditon what should be run that time 
+                                //  according to the loop conditon
     {
         cout << i << endl;
         if (i == 4) {                     
