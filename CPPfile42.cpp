@@ -47,7 +47,9 @@ int main (){
     cout << "The value of array[2] is " << array[2] << endl;
     cout << "The value of array[3] is " << array[3] << endl;
  
-    return 0;
+    // return 0;
+
+    system("pause");
 }
 
  

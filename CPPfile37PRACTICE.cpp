@@ -59,8 +59,6 @@ int main (){
              a.show() ;
              a.showS() ;
 
- 
- 
- 
-    return 0;
+             system("pause");
+             // return 0;
 }

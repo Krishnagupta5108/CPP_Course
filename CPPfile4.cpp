@@ -70,3 +70,30 @@ cout<<"The value of the m + int(n) is  "<<m + int(n)<<endl;
 
     return 0;   
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

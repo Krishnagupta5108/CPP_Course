@@ -1,4 +1,5 @@
 #include <iostream>                      
+#include <conio.h>                      
 #include <vector>
 
 using namespace std;
@@ -61,5 +62,6 @@ int main()
 
     display(vec3);
 
-    return 0;
+    system("pause");
+    // return 0;
 }
