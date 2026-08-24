@@ -10,7 +10,8 @@ int main() {
 cout<<" \n Enter the value of the num2 ";  // << is the interion operator
   cin>>num2;      // >> is the extersion operator
 
-cout<<"\n The sum of the num1 and num2 is "<<num1;
+cout<<"\n The sum of the num1 and num2 is "<<(num1 + num2);
 
-// return 0 ; 
+// return 0; 
+system("pause");
 } 
