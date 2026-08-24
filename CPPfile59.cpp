@@ -12,7 +12,7 @@ using namespace std;
 }
 
 
-    float average2(float x , float y )
+    float average2(float x , float y )                                 
 {
    
     float average = (x + y )/ 2 ; 

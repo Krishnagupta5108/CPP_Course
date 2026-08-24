@@ -1,19 +1,18 @@
+#include <iostream>                                              
+using namespace std;                                                       
+int glo =243 ;                                                                      
 
-#include <iostream>
-using namespace std;
-int glo =243 ;
-
-int main() {
-  int a = 12, b = 2;
-  
-
-  float pi = 3.14659;
+int main() {                                                                
+  int a = 12, b = 2;                                                                
 
 
-  char car = 'B';
+  float pi = 3.14659;                                                  
 
-  int glo = 2;                
-  glo = 4;
+
+  char car = 'B';                                       
+
+  int glo = 2;                                                           
+  glo = 4;                                                        
   cout << "This is the second code.\n The value of a = " << a
        << ".\n  The value of b   = " << b << endl
        << "The value of pi =" << pi;
@@ -22,5 +21,8 @@ int main() {
 
 
   cout << "\n" << glo;
-  return 0 ; 
+  
+  
+  
+                  // return 0 ; 
 }
