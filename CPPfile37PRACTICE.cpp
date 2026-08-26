@@ -30,19 +30,19 @@ class simple_calculator{
 class sciencetific_calculator    
 {
     public : 
-       int v ; 
+       double v ; 
        
       
        void showS(){
 
            cout << "Enter the value to calculate trigonometric and log function " << endl;
            cin >> v;
-
+           
            cout << "The value of the Sin(" << v << ") is " << sin(v)<<endl;
            cout << "The value of the cos(" << v << ") is " << cos(v)<<endl;
            cout << "The value of the tan(" << v << ") is " << tan(v)<<endl;
            cout << "The value of the log(" << v << ") is " << log(v)<<endl;
-       }
+        }
  
 };
 
@@ -54,8 +54,12 @@ class Hybrid : public simple_calculator , public sciencetific_calculator
 };
 
 int main (){
+
+    int x, y ;
+    cout << "Enter the value to calculate  " << endl;
+    cin>>x>>y;
              Hybrid a ;
-             a.getdataC(20 , 10 );
+             a.getdataC(x, y );
              a.show() ;
              a.showS() ;
 
