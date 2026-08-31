@@ -82,13 +82,11 @@ int main (){
     ptr[1] = &CPPtext;   
     
     ptr[0]->display();  cout << endl;
-    ptr[1]->display();  
+    ptr[1]->display();
 
+    system("pause ");
 
- 
- 
- 
-    return 0;
+    // return 0;
 }
 
 

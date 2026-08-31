@@ -79,12 +79,13 @@ int main (){
     char m , n ; 
     m = 'A ' ; 
     n = 'B ' ; 
-    SwapFunct( m , n ) ;
+    SwapFunct( "m" , "n" ) ;
     cout<<"The value of the m is  "<<m<<endl;
     cout<<"The value of the n is  "<<n<<endl;
      
   
-    return 0;
+    // return 0;
+    system("pause");
 }
  
  

@@ -21,7 +21,8 @@ int main (){
     a.getdata() ;  
 
 
-    return 0;
+    // return 0;
+    system("pause ") ; 
 }
 
 /*]

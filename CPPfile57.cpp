@@ -8,38 +8,40 @@ using namespace std;
 
 template <class T1 , class T2>
 
- class myclass {
+class myclass {
     
-    };
+};
 */
 template <class T1 , class T2>
 
- class myclass {
+class myclass {
     public : 
     T1 data1 ; 
     T2 data2 ; 
-
+    
     myclass (T1 a , T2 b )
-{
-    data1 = a ; 
-    data2 = b ; 
-
-}
-
-     void display (){
+    {
+        data1 = a ; 
+        data2 = b ; 
+        
+    }
+    
+    void display (){
         cout<<"data1  = "<<data1<<endl ; 
         cout<<"data2  = "<<data2<<endl ; 
      }
 
- }; 
+    }; 
 
 
-int main (){
-    
-    myclass<int , char> obj (65 , 'x');
-    obj.display();
- 
- 
- 
-    return 0;
+    int main (){
+        
+        myclass<int , char> obj (65 , 'x');
+        obj.display();
+        
+        // system("stop");
+    system("pause");
+
+
+    // return 0;
 }
