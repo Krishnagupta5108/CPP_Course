@@ -17,7 +17,7 @@ The useful cases for working with files are as follows:
 int main()
 {
 
-    string st = " Code with Krishna ";
+    string st = " CWK ";
     // Opening files using constructor and writing to the file
 
     ofstream outFile("sample52cpp.txt"); // opening file using constructor
