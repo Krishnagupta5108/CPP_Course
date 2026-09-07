@@ -3,9 +3,10 @@
 #include <map>
 using namespace std;
 
-// 🏦 Bank Account Management System
+// 🏦 Bank Account Management System😂😂
 
-class account
+
+    class account
 {
 public:
     int accountNo;
@@ -20,7 +21,6 @@ public:
         double amount;
     };
 
-
     void displayAccounts(map<int, pair<string, double>> AccountMap)
 {
 
@@ -33,6 +33,7 @@ public:
              << "\t\t" << itr->second.second << endl;
     }
 }
+
 
 int main()
 {
@@ -70,7 +71,7 @@ int main()
     cout << "Enter the your Account No to transfer money :";
     int transferFromAccNo;
     cin >> transferFromAccNo;
-
+ 
     cout << "Enter the Account No to transfer money to :";
     int transferToAccNo;
     cin >> transferToAccNo;
@@ -96,3 +97,19 @@ int main()
     // cout << "Enter the Account No for transaction :";
     // int accNo_Transaction;
     // cin >> accNo_Transaction;   
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/

@@ -18,8 +18,9 @@ c = a  +  b ;
 
 cout<<"The value of the c is "<<c<<endl;
 
-cout<<"The value of the global c is "<<(::c);
-
+cout<<"The value of the global c is "<<( :: c);
+//                                       ^
+//                                      Scope resoultion orpertor
 // *********************** float , double and long double Literals *************************************
 
 float d = 34.4f ;
@@ -31,11 +32,14 @@ cout<<"The value of the float is "<<d<<endl;
 cout<<"The value of the long double  is "<<e<<endl;
 
 cout<<"The size of the float is"<<sizeof(34.4)<<endl;
-cout<<"The size of the float f is"<<sizeof(34.4f)<<endl;
-cout<<"The size of the float F is"<<sizeof(34.4F)<<endl;
+cout<<"The size of the float d is"<<sizeof(d)<<endl;
+cout<<"The size of the float(f) is"<<sizeof(34.4f)<<endl;
+cout<<"The size of the float(F) is"<<sizeof(34.4f)<<endl;
+
 cout<<"The size of the long double  is"<<sizeof(34.4)<<endl; // here the 34.4 is taken as double becaue here is not mention about the variable datatype 
-cout<<"The size of the long doublel is"<<sizeof(34.4l)<<endl;
-cout<<"The size of the long double L is"<<sizeof(34.4L)<<endl;
+cout<<"The size of the long double  is"<<sizeof(e)<<endl; // here the 34.4 is taken as double becaue here is not mention about the variable datatype 
+cout<<"The size of the long double(l) is"<<sizeof(34.4l)<<endl;
+cout<<"The size of the long double(L) is"<<sizeof(34.4L)<<endl;
 
 
 
@@ -53,9 +57,12 @@ cout<<"The value of the y  is "<<y<<endl;
  // ***********************  TTPECASTING *************************************
 
  int m = 45 ; 
- float  n = 45.99 ;  
- 
- cout<<"The value of the m is "<<m<<endl;
+ float  n = 45.99 ;
+
+ cout << "int m = 45  float n = 45.99";
+
+     cout
+     << "The value of the m is " << m << endl;
  cout<<"The value of the n is "<<n<<endl;
 
  cout<<"The value of the (float)m is "<<(float)m<<endl;
@@ -68,7 +75,8 @@ cout<<"The value of the m + n is "<<m + n<<endl;
 cout<<"The value of the m + (int)n is  "<<m + (int)n<<endl;
 cout<<"The value of the m + int(n) is  "<<m + int(n)<<endl;
 
-    return 0;   
+    // return 0;
+    system("pause");   
 }
 
 

@@ -20,9 +20,10 @@ int main() {
   cout << "\nThe car is " << car << endl;                                       
 
 
-  cout << "\n" << glo;
+  cout << "\nLocal glo :" << glo;
+  cout << "\nGlobal glo :" <<:: glo<<endl;
   
   
-  
+  system("pause");
                   // return 0 ; 
 }
