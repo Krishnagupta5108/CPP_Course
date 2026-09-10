@@ -29,13 +29,15 @@ int main()
 
     int *p = marks;
 
-    cout << " *(p++) " << *(p++) << endl;
-    cout << " *(++p) " << *(++p) << endl;
+    cout << "    int *p = marks;"<<endl;
+    cout << " *(p++) :" << *(p++) << endl;
+    cout << " *(++p) :" << *(++p) << endl;
 
     cout << "The value of the marks[0] or *p is " << *p << endl;
     cout << "The value of the marks[1] or *p+1 is " << *p + 1 << endl;
     cout << "The value of the marks[2] or *p+2 is " << *p + 2 << endl;
     cout << "The value of the marks[3] or *p+3 is " << *p + 3 << endl;
 
-    return 0;
+    // return 0;
+    system("pause ");
 }

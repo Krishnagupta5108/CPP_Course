@@ -23,6 +23,7 @@ cout << "The address of b is " << c << endl;
 cout << "The address of b is " << &b << endl;
 cout << "The value store at the address of address which c hold is " << **c << endl;
 
-return 0;
+// return 0;
+system("pause ");
 }
 
