@@ -29,7 +29,7 @@ int a ;
 class b1 {
     public :
     void say(){
-    cout<<"Vande bharat"<<endl ;
+        cout << "Jai hind" << endl;
     }
 
 };
@@ -37,7 +37,7 @@ class b1 {
 class b2 {
     public :
     void say (){
-    cout<<"Jai hind" <<endl;
+    cout<<"Vande Matram Jai hind" <<endl;
     }
 
 };
@@ -77,7 +77,8 @@ int main (){
     d  d2 ;
     d2 .say() ;  // here will run there own say function and ignoring the inherited function from the base 
 
-    return 0;
+    // return 0;
+    system("pause");
 
 }     
 /*

@@ -31,7 +31,7 @@ int main()
     base b;
     derived d;
 
-    // cout << b.a;  give error
+    // cout << b.a;  give error     
     // cout << d.a;  give error
 
     // cout << b.b;  give error

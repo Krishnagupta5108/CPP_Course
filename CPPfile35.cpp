@@ -18,7 +18,7 @@ void student ::set_rollnumber(int r)
 
 void student ::get_rollnumber()
 {
-    cout << "Your rollnumber is " << get_rollnmber();
+    cout << "Your rollnumber is " <<roll_number ;
 }
 
 class exam : public student
@@ -30,7 +30,7 @@ protected:
 public:
     void set_marks(float, float);
     void get_marks();
-};u
+};
 
 void exam ::set_marks(float m1, float m2)
 {
@@ -57,11 +57,14 @@ public:
 };
 
 int main()
-{
+{int r , m ,  p ;
+    cout<<"Enter roll number , maths and physics";
+    cin>>r >> m >> p ; 
     result krishna ; 
-    krishna.set_rollnumber(36);
-    krishna.set_marks(94.0 , 95.0 );
+    krishna.set_rollnumber(r);
+    krishna.set_marks(m , p );
     krishna.display() ;
 
-    return 0;
+    // return 0;
+    system("pause");
 }

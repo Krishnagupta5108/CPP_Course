@@ -104,7 +104,7 @@ int main (){
  obj.Set_score(8) ;
  obj.Display() ;
  
-    return 0;
+    // return 0;
 }
 
 

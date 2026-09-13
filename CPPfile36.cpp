@@ -52,5 +52,6 @@ int main()
      b.set_int2base(32 ) ;
      b.show()   ;
 
-    return 0;
+     // return 0;
+    system("pause ");
 }
