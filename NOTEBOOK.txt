@@ -47,7 +47,11 @@
 41   Initialization list in Constructor
 42   New and Delete keyword 
 43   New and Delete keyword , arrow -> pointer 
-
+44   Array of object by new prctice
+45   this keyword
+46   Polymorphism
+47   Object as pointer in base class and derived class 
+48   Virtual keyword Object as pointer in base class and derived class 
 
 
 

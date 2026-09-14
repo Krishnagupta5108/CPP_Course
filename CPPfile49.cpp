@@ -14,11 +14,13 @@ class CWK{  // code with krishna
          title = s;
          rating = r;
      }
-     void display ( ){}
+      void display ( ){
+        cout<<endl<<" Base class function"<<endl;
+     }
 
 };
 
-class CWKVideo : public CWK{
+class CWKVideo :virtual  public CWK{
     float videoLength ; 
     public: 
     CWKVideo(string s, float r, float vl):CWK(s,r){
@@ -33,7 +35,7 @@ class CWKVideo : public CWK{
 
 
 
-class CWKText : public CWK{
+class CWKText : virtual public CWK{
     int words  ; 
     public: 
     CWKText(string s, float r, int ws):CWK(s,r){
@@ -75,6 +77,7 @@ int main (){
 
     CWKText CPPtext(title , rating, words);
     CPPtext.display();
+
 
     CWK *ptr[2];
 

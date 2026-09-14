@@ -82,7 +82,8 @@ int main()
     cout << endl;
     ptr[1]->display();
 
-    return 0;
+    // return 0;
+    system("pause");
 }
 
 /*

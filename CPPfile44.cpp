@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+//  Array of object by new ptr
+
 class ShopItem
 {
 
@@ -51,5 +53,6 @@ int main()
         ptrTemp++;
     }
 
-    return 0;
+    // return 0;
+    system("pause ");
 }

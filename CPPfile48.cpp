@@ -12,7 +12,7 @@ public:
     }
 };
 
-class Derivedclass : public Baseclass
+class Derivedclass : virtual  public Baseclass
 {
 
 public:
@@ -27,7 +27,11 @@ public:
 int main (){
 
     Baseclass obj_Base;
+    obj_Base.display();
     Derivedclass obj_Derived;
+    obj_Derived.display();
+
+
 
     Baseclass *Baseclass_pointer;  
     
@@ -36,10 +40,12 @@ int main (){
     // |
     // |
     //  Baseclass_pointer ->display(); //  this will normally runs the base class display function
-    //   but we want  to call display function from derived class we need to add virtual keyword in the
-    //    base class display function and then it will call the derived class display function
-    
-    Baseclass_pointer = &obj_Derived; // we have added the virtual keywork so the derived class display function will call 
+     //   but we want  to call display function from derived class we need to add virtual keyword in the
+     //    base class display function and then it will call the derived class display function
+     
+     Baseclass_pointer = &obj_Derived; // we have added the virtual keywork so the derived class display function will call 
+     Baseclass_pointer ->display(); //  this will normally runs the base class display function
 
-    return 0;
+    // return 0;
+    system("pause");
 }
