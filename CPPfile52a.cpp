@@ -17,7 +17,7 @@ The useful cases for working with files are as follows:
 int main()
 {
 
-    string st = " CWK ";
+    string st = " CWkK ";
     // Opening files using constructor and writing to the file
 
     ofstream outFile("sample52cpp.txt"); // opening file using constructor
@@ -33,7 +33,9 @@ int main()
     // ^  Above we use getline to get a full line and to get next line
     // we can use getline again to get the next line from the file.
 
-    return 0;
+
+    // return 0;
+    system("pause");
 }
 
 

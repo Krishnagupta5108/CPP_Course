@@ -12,10 +12,11 @@ int main (){
     out.close() ; 
 
     ifstream in ; 
-    in.open("sample52cpp.text  " ) ; 
+    in.open("CPPfile1.cpp  " ) ; 
 
 
     string st ; 
+
 
 
     // in>>st  ; 
@@ -37,5 +38,6 @@ int main (){
  
  
  
-    return 0;
+    // return 0;
+    system("pause");
 }

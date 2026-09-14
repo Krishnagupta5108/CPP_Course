@@ -52,8 +52,18 @@
 46   Polymorphism
 47   Object as pointer in base class and derived class 
 48   Virtual keyword Object as pointer in base class and derived class 
-
-
+49   Virtual function
+50   Pure Virtual function 
+51   File I/O
+52   Fstream I/O
+53   Fstream I/O
+54   Fstream I/O all the content of file how to show as output 
+55   Syntax for Template class
+56   Template class
+57   Template class with Multiple Parameter
+58   Template class
+59   Template class
+60   Template function
 
 
 

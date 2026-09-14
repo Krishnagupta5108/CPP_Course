@@ -11,18 +11,23 @@ public:
     {
         data = s;
     }
-    void display(void);
+    void display(void){
+    cout << "The data is " << data << endl; }
+
 };
 
-void krishna<class T>::display(void)
-{
-    cout << "The data is " << data << endl;
-}
+ 
+
 
 void Func(int a)
 {
     cout << "This is normal Func function ()" << a << endl;
 }
+
+
+
+
+
 
 template <class T>
 void Func(T a)
@@ -30,23 +35,31 @@ void Func(T a)
     cout << "This is Templatized Func function ()" << a << endl;
 }
 
+
+
+
 template <class T>
 void Func1(T a)
 {
     cout << "This is Templatized Func1 function ()" << a << endl;
+
 }
+
+
 
 int main()
 {
 
-    krishna<int> K(2839);
-    K.data;
+    krishna<string> K("Hii, how are you ?");  
+        K.display()  ;
+        K.display()  ;
         K.display()  ;
 
-        Func(34); // Exactly the normal Func with int will called which is at line 18
-    Func1(3123);
+    Func(34); // Exactly the normal Func with int will called which is at line 18
+    Func1("hello");
  
-    return 0;
+    system("pause");
+    // return 0;
 }
 
 
