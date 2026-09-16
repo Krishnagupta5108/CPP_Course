@@ -41,7 +41,7 @@
 35   Inheritance 
 36   Multiple Inheritance 
 37   Inheritance prctice program 
-38   Inheritance AMBIGUITY solution 
+38   Inheritance AMBIGUITY solution                      
 39   Virtual base class 
 40   Constructor in derived class 
 41   Initialization list in Constructor
@@ -64,7 +64,14 @@
 58   Template class
 59   Template class
 60   Template function
-
+61   Standard Template Library(STL) introduction
+62   Standard Template Library(STL) introduction
+63   STL Vectors
+63.b STL Vectors 
+64   STL List
+65   STL Map
+65.b STL Map
+66   Functor
 
 
 

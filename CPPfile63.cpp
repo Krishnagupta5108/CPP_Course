@@ -68,13 +68,6 @@ int main()
 
 
 
-    //   ********** Example of insert() function in C++ STL
-
-    vec1.insert(vec1.begin() + 1, 100);
-    cout << "After inserting 100 at index 1:" << endl;
-    display(vec1);
-
-
 
     //   ********** Example of insert() function with values mulitple times  in C++ STL
     
@@ -83,6 +76,7 @@ int main()
     display(vec1);
     
     vec1.insert(vec1.end() , 10, 100); // Insert 100 at last index  10 times , in middle of the vector
+    display(vec1);
     
     
     //   ********** Example of erase function   in C++ STL
@@ -114,8 +108,10 @@ int main()
     display(vec4);
     
     
-    // ##################### Fourth way to create a vector in C++ STL ########################
+    // ##################### Fifth way to create a vector in C++ STL ########################
     vector<int> vec5(5)  ; 
+    display(vec5);
     
-    return 0;
+    // return 0;
+    system("pause"); 
 }

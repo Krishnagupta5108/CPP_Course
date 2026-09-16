@@ -1,5 +1,5 @@
 #include <iostream>                      
-#include <conio.h>                      
+// #include <conio.h>                      
 #include <vector>
 
 using namespace std;
@@ -18,14 +18,14 @@ void display(vector<T> &v1)
 }
 int main()
 {
-    vector<char> vec2(4); // 3 4 element character vector
+    vector<char> vec2(10); // 3 4 element character vector
 
-    display(vec2);
+    // display(vec2);
 
-    cout << "Size of the vector vec2: " << vec2.size() << endl;
+    // cout << "Size of the vector vec2: " << vec2.size() << endl;
 
     vector<char>::iterator it = vec2.begin();
-    vec2.insert(it + 3, 'X');
+    vec2.insert(it + 4, 'X');
     vec2.push_back('a');
     vec2.push_back('b');
     vec2.push_back('c');
@@ -43,23 +43,23 @@ int main()
 
     cout << "Enter the size of the vector vec3: " << endl;
     cin >> size;
-
-
-
-   for (int i = 0; i < size; i++)
+    
+    
+    
+    for (int i = 0; i < size; i++)
     {
         cout << "Enter an element to add to this Vector vec3 : ";
         cin >> element;
-
+        
         vec3.push_back(element);
     }
+    
+    
 
 
-
-
-
-    cout << "Size of the vector: " << vec3.size() << endl;
-
+    
+    cout << "Size of the vector vec3 : " << vec3.size() << endl;
+    
     display(vec3);
 
     system("pause");

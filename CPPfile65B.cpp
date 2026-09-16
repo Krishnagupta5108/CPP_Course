@@ -56,26 +56,29 @@
     cout << itr->first << "  "  << itr->second.first << " "<< itr->second.second << endl;  
     
 
-    // TO PRINT THE ALL THE COLUMNS WE USE FOR LOOP 
-    auto itr = marksMap.begin();    
-    for ( int i = 0 ; i <=marksMap.size() ;   i++)
+    // TO PRINT THE ALL THE COLUMNS WE USE FOR LOOP
+
+    auto it = marksMap.begin();
+
+    for (int i = 0; i <= marksMap.size(); i++)
     {
 
-        cout << itr->first << "  "  << itr->second.first << " "<< itr->second.second << endl;  
-        itr++ ; 
+        cout << it->first << "  "  << it->second.first << " "<< it->second.second << endl;  
+        it++ ; 
         
     }
     
     
     // ############
     
-    map<string, pair<int , char > > :: iterator itr;
+ 
     for (itr = (marksMap.begin()); itr != (marksMap.end()); itr++)
     {
         
         cout << itr->first << "  "  << itr->second.first << " "<< itr->second.second << endl;  
     
     }
-    return 0;
+    // return 0;
+    system("pause");
     }
 
