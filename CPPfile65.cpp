@@ -20,23 +20,21 @@
   
 
     // way  to print elements of map is like this
-    map<string, int>::iterator itr;
-    auto itr = marksMap.begin();
-    cout<<  (*itr).first << "   " << (*itr).second <<" \n " ; 
-    cout<<  itr->first << "   " << itr->second <<" \n " ; 
-    
-    
-    // way  to print elements of map is like this
-    map<string, int>::iterator itr;
+        map<string, int>::iterator itr = marksMap.begin();
 
-    //  int i ; 
-    //  for(  i  =          0           ;   i  <=      count          ;   i++     ){}
-    for( itr = ( marksMap.begin() ) ;  itr != ( marksMap.end() )  ;  itr++    ){
-        
-        
-        cout<<  (*itr).first << "   " << (*itr).second <<" \n " ;
-        
-    }
+        // cout << (*itr).first << "   " << (*itr).second << " \n ";
+        // cout << itr->first << "   " << itr->second << " \n ";
+
+        // way  to print elements of map is like this
+        // map<string, int>::iterator it;
+
+        //  int i ;
+        //  for(  i  =          0           ;   i  <=      count          ;   i++     ){}
+        for (itr = (marksMap.begin()); itr != (marksMap.end()); itr++)
+        {
+
+            cout << (*itr).first << "   " << (*itr).second << " \n ";
+        }
 
     /*   IMPORTANT POINTS OF THE MAP
 
@@ -123,5 +121,12 @@
 
 
 
-    return 0;
+    // return 0;
+    system("pause");
 }
+
+
+/*
+
+
+*/

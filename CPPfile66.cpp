@@ -13,14 +13,82 @@
                                 
      // ## Sorting the array ---------------------------------
 
-    sort(arr , arr+5) ;  // this will sort the elments of array from index 0 to 8 only rest will be unsorted
-    sort(arr , arr+5 , greater<int>()) ;  // this will desending order sort the elments of array from index 0 to 8 only  rest will be unsorted
+    // sort(arr , arr+5) ; 
+    cout<<endl; // this will sort the elments of array from index 0 to 8 only rest will be unsorted
+    // sort(arr , arr+5 , greater<int>()) ;  // this will desending order sort the elments of array from index 0 to 8 only  rest will be unsorted
 
-        for (int  i = 0; i < 10; i++)
+        for (int  i = 0; i < 9; i++)
         {
             cout<<arr[i]<<" \t";
         }
+        cout << endl;
+        system("pause"); 
+        
+        // return 0;              
+    }    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+                                        
+                                        
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
-        system("pause");
-        // return 0;
-    }
+    /*
+    
+    
+
+
+ cout<<endl ; // this will sort the elements of array from index 0 to 8 only reset will be unsorted    
+ sort( arr , arr + 5 , greater<int>()) ;  // this will desending order sort the elemnts if array from index 0 to 8 only rest will be unsorted      
+ for( int i =  0; i < 9 ; i++)
+ {
+    
+ cout<<arr[i ] <<" \t " ; 
+ 
+ }           
+ cout<<endl ; 
+ system("pause"); 
+//  return 0 ;    
+
+
+
+
+
+
+
+
+#include<iostream>
+using namespace std ; 
+
+int main ()
+
+{
+cout<<"Hello world ";            
+
+
+hhii how are
+
+
+
+
+
+
+
+    */
